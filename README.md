@@ -23,8 +23,10 @@ cd vagrant_project</pre></code>
 
 Resources Used
 -------
-https://github.com/2creatives/vagrant-centos/releases/tag/v6.5.3
-http://rundeck.org/downloads.html
-http://www.centos.org/
-https://www.virtualbox.org/
-https://docs.vagrantup.com/v2/getting-started/project_setup.html
+<ul>
+<li>https://github.com/2creatives/vagrant-centos/releases/tag/v6.5.3</li>
+<li>http://rundeck.org/downloads.html</li>
+<li>http://www.centos.org/</li>
+<li>https://www.virtualbox.org/</li>
+<li>https://docs.vagrantup.com/v2/getting-started/project_setup.html</li>
+</ul>
