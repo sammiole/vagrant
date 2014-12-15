@@ -16,7 +16,11 @@ e.g.
 <pre><code>mkdir vagrant_project
 cd vagrant_project</pre></code>
 
-3. 
+3. Install the box to Vagrant
+<pre><code>vagrant box add centos65-x86_64-20140116 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box</pre></code>
+
+4. Pull the Vagrantfile and Provisions.sh file from Github
+<pre><code></pre></code>
 
 
 
