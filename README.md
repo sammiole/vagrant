@@ -1,3 +1,7 @@
+1. Mark the root directory of your project 
+e.g. 
+<pre><code>cd /Users/Sammiole/</code></pre>
+
 Getting Started with Vagrant
 =======
 Contains 
