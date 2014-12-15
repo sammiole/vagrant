@@ -1,7 +1,3 @@
-1. Mark the root directory of your project 
-e.g. 
-<pre><code>cd /Users/Sammiole/</code></pre>
-
 Getting Started with Vagrant
 =======
 Contains 
@@ -22,10 +18,7 @@ cd vagrant_project</code></pre>
 3. Install the box to Vagrant
 <pre><code>vagrant box add centos65-x86_64-20140116 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box</code></pre>
 
-4. Initialize the directory for usage with Vagrant
-<pre><code>vagrant init centos65-x86_64-20140116</code></pre>
-
-5. Pull the Vagrantfile and provisions.sh file from Github
+4. Pull the Vagrantfile and provisions.sh file from Github
 <pre><code>git pull https://github.com/sammiole/Vagrant master</code></pre>
 
 5. Boot your Vagrant environment
