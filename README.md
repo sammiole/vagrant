@@ -6,7 +6,6 @@ Contains
 <li>CentOS 6.5 x86_64 with development tools and VirtualBox Guest Additions 4.3.6</li>
 <li>Vagrantfile with Java and Rundeck provisions</li>
 </ul>
-<pre><code></code></pre>
 
 1. Mark the root directory of your project 
 e.g. 
@@ -19,10 +18,19 @@ cd vagrant_project</code></pre>
 3. Install the box to Vagrant
 <pre><code>vagrant box add centos65-x86_64-20140116 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box</code></pre>
 
-4. Pull the Vagrantfile and Provisions.sh file from Github
-<pre><code></code></pre>
+4. Initialize the directory for usage with Vagrant
+<pre><code>vagrant init centos65-x86_64-20140116</code></pre>
 
+5. Pull the Vagrantfile and provisions.sh file from Github
+<pre><code>git pull https://github.com/sammiole/Vagrant master</code></pre>
 
+5. Boot your Vagrant environment
+<pre><code>vagrant up</code></pre>
+
+6. SSH into the machine
+<pre><code>vagrant ssh</code></pre>
+
+7. Done! 
 
 
 Resources Used
