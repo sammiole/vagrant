@@ -1,6 +1,6 @@
 Getting Started with Vagrant
 =======
-Contains 
+Contains
 ------
 <ul>
 <li>CentOS 6.5 x86_64 with development tools and VirtualBox Guest Additions 4.3.6</li>
