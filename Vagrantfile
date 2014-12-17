@@ -65,7 +65,7 @@ Vagrant.configure(2) do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   # config.vm.provision "shell", inline <<-SHELL
-    config.vm.provision “shell”, path: “provision.sh”
+    config.vm.provision "shell", path: "provision.sh"
   #   sudo apt-get install apache2
   # SHELL
 end
